@@ -6,23 +6,40 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE6542062E9D273C0035C0A8 /* AppDevTutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6542022E9D273C0035C0A8 /* AppDevTutorialsApp.swift */; };
+		CE6542082E9D273C0035C0A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6542002E9D273C0035C0A8 /* Preview Assets.xcassets */; };
+		CE6542092E9D273C0035C0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6542032E9D273C0035C0A8 /* Assets.xcassets */; };
+		CE782E542EA191AC00B6E61E /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE782E532EA191AC00B6E61E /* MeetingView.swift */; };
+		CE782E572EA196AC00B6E61E /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE782E562EA196AC00B6E61E /* ThemeKit */; };
+		CE782E5A2EA1974700B6E61E /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE782E592EA1974700B6E61E /* DailyScrum.swift */; };
+		CE782E5D2EA1979000B6E61E /* DailyScrum+Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE782E5C2EA1979000B6E61E /* DailyScrum+Sample.swift */; };
+		CE782E5F2EA1A7F800B6E61E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE782E5E2EA1A7F800B6E61E /* CardView.swift */; };
+		CE782E612EA1A91600B6E61E /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE782E602EA1A91600B6E61E /* TrailingIconLabelStyle.swift */; };
+		CE782E632EA1AB4800B6E61E /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE782E622EA1AB4800B6E61E /* ScrumsView.swift */; };
+		CE782E652EA1AF9900B6E61E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE782E642EA1AF9900B6E61E /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CE6541EF2E9D27350035C0A8 /* AppDevTutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDevTutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6542002E9D273C0035C0A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE6542022E9D273C0035C0A8 /* AppDevTutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDevTutorialsApp.swift; sourceTree = "<group>"; };
+		CE6542032E9D273C0035C0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE782E532EA191AC00B6E61E /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		CE782E592EA1974700B6E61E /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		CE782E5C2EA1979000B6E61E /* DailyScrum+Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyScrum+Sample.swift"; sourceTree = "<group>"; };
+		CE782E5E2EA1A7F800B6E61E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CE782E602EA1A91600B6E61E /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		CE782E622EA1AB4800B6E61E /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		CE782E642EA1AF9900B6E61E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CE6541F12E9D27350035C0A8 /* AppDevTutorials */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AppDevTutorials;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE6541EC2E9D27350035C0A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE782E572EA196AC00B6E61E /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +49,7 @@
 		CE6541E62E9D27350035C0A8 = {
 			isa = PBXGroup;
 			children = (
-				CE6541F12E9D27350035C0A8 /* AppDevTutorials */,
+				CE6542052E9D273C0035C0A8 /* AppDevTutorials */,
 				CE6541F02E9D27350035C0A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +60,63 @@
 				CE6541EF2E9D27350035C0A8 /* AppDevTutorials.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6542012E9D273C0035C0A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE6542002E9D273C0035C0A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE6542052E9D273C0035C0A8 /* AppDevTutorials */ = {
+			isa = PBXGroup;
+			children = (
+				CE782E512EA1916100B6E61E /* Scrumdinger */,
+				CE6542012E9D273C0035C0A8 /* Preview Content */,
+				CE6542022E9D273C0035C0A8 /* AppDevTutorialsApp.swift */,
+				CE6542032E9D273C0035C0A8 /* Assets.xcassets */,
+			);
+			path = AppDevTutorials;
+			sourceTree = "<group>";
+		};
+		CE782E512EA1916100B6E61E /* Scrumdinger */ = {
+			isa = PBXGroup;
+			children = (
+				CE782E5B2EA1977600B6E61E /* Extensions */,
+				CE782E582EA1972000B6E61E /* Models */,
+				CE782E522EA1917200B6E61E /* Views */,
+			);
+			path = Scrumdinger;
+			sourceTree = "<group>";
+		};
+		CE782E522EA1917200B6E61E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE782E532EA191AC00B6E61E /* MeetingView.swift */,
+				CE782E5E2EA1A7F800B6E61E /* CardView.swift */,
+				CE782E622EA1AB4800B6E61E /* ScrumsView.swift */,
+				CE782E642EA1AF9900B6E61E /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE782E582EA1972000B6E61E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE782E592EA1974700B6E61E /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE782E5B2EA1977600B6E61E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE782E5C2EA1979000B6E61E /* DailyScrum+Sample.swift */,
+				CE782E602EA1A91600B6E61E /* TrailingIconLabelStyle.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +134,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				CE6541F12E9D27350035C0A8 /* AppDevTutorials */,
-			);
 			name = AppDevTutorials;
 			packageProductDependencies = (
+				CE782E562EA196AC00B6E61E /* ThemeKit */,
 			);
 			productName = AppDevTutorials;
 			productReference = CE6541EF2E9D27350035C0A8 /* AppDevTutorials.app */;
@@ -78,7 +150,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					CE6541EE2E9D27350035C0A8 = {
 						CreatedOnToolsVersion = 16.2;
@@ -94,6 +166,9 @@
 			);
 			mainGroup = CE6541E62E9D27350035C0A8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CE782E552EA196AC00B6E61E /* XCLocalSwiftPackageReference "../../../../Downloads/CreatingACardView 2/StartingProject/TutorialResources/ThemeKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CE6541F02E9D27350035C0A8 /* Products */;
 			projectDirPath = "";
@@ -109,6 +184,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6542082E9D273C0035C0A8 /* Preview Assets.xcassets in Resources */,
+				CE6542092E9D273C0035C0A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +196,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE782E5D2EA1979000B6E61E /* DailyScrum+Sample.swift in Sources */,
+				CE782E652EA1AF9900B6E61E /* DetailView.swift in Sources */,
+				CE782E612EA1A91600B6E61E /* TrailingIconLabelStyle.swift in Sources */,
+				CE6542062E9D273C0035C0A8 /* AppDevTutorialsApp.swift in Sources */,
+				CE782E632EA1AB4800B6E61E /* ScrumsView.swift in Sources */,
+				CE782E5A2EA1974700B6E61E /* DailyScrum.swift in Sources */,
+				CE782E542EA191AC00B6E61E /* MeetingView.swift in Sources */,
+				CE782E5F2EA1A7F800B6E61E /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +245,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 56S6D7P45J;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -183,6 +269,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -223,6 +310,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 56S6D7P45J;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -239,6 +327,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -249,10 +338,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppDevTutorials/Preview Content\"";
-				DEVELOPMENT_TEAM = 56S6D7P45J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -278,10 +367,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppDevTutorials/Preview Content\"";
-				DEVELOPMENT_TEAM = 56S6D7P45J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -324,6 +413,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CE782E552EA196AC00B6E61E /* XCLocalSwiftPackageReference "../../../../Downloads/CreatingACardView 2/StartingProject/TutorialResources/ThemeKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../../Downloads/CreatingACardView 2/StartingProject/TutorialResources/ThemeKit";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE782E562EA196AC00B6E61E /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE6541E72E9D27350035C0A8 /* Project object */;
 }
